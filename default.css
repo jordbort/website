@@ -6,8 +6,8 @@ body {
 h1 {
 	font-size: 30pt;
 	line-height: 50%;
-	color: #ffffff;
-	font-family: Verdana;
+	color: #FFFFFF;
+	font-family: Verdana, sans-serif;
 	font-weight: normal;
 	text-align: center;
 	text-transform: lowercase;
@@ -16,67 +16,67 @@ h1 {
 }
 h2 {
 	font-size: 18pt;
-	color: #ffffff;
-	font-family: Verdana;
+	color: #FFFFFF;
+	font-family: Verdana, sans-serif;
 	font-weight: normal;
 	text-align: left;
 	text-transform: lowercase;
 	margin-bottom: 0.5cm;
 }
 p {
-	color: #ffffff;
+	color: #FFFFFF;
 	font-size: 10pt;
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
 	text-transform: lowercase;
 }
 p.ex {
-	color: #ffffff;
+	color: #FFFFFF;
 	font-size: 10pt;
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
 	text-transform: lowercase;
 	text-indent: 1cm;
 	margin-bottom: 1cm;
 }
 p.foot {
 	margin-top: 1cm;
-	color: #ffffff;
+	color: #FFFFFF;
 	font-size: 10pt;
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
 	text-transform: lowercase;
 	text-align: center;
 	margin-bottom: 2cm;
 }
 a {
 	text-decoration: none;
-	color: #ffff00;
+	color: #FFFF00;
 }
 a:hover, .dropdown-content a.current:hover {
 	color: #cccc00;
 }
 table {
-	color: #ffffff;
+	color: #FFFFFF;
 	font-size: 10pt;
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
 	text-transform: lowercase;
 	white-space: nowrap;
 }
 dl {
-	color: #ffffff;
+	color: #FFFFFF;
 	font-size: 10pt;
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
 	text-transform: lowercase;
 }
 ul {
-	color: #ffffff;
+	color: #FFFFFF;
 	font-size: 10pt;
-	font-family: Verdana;
+	font-family: Verdana, sans-serif;
 	text-transform: lowercase;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #000000;
-	border-bottom: 1px solid #ffffff;
+	border-bottom: 1px solid #FFFFFF;
 }
 li {
 	float: left;
@@ -89,13 +89,13 @@ li.social {
 }
 li a, .dropbtn {
 	text-decoration: none;
-	color: #ffffff;
+	color: #FFFFFF;
 	display: block;
 	padding: 16px 16px;
 }
 .current {
 	background-color: #404040;
-	color: #ffff00;
+	color: #FFFF00;
 }
 li.dropdown {
 	display: inline-block;
