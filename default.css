@@ -179,17 +179,8 @@ div.dropdown-content {
 	footer .social {
 		display: none;
 	}
-	h1 {
-		font-size: 3.6rem;
-		letter-spacing: 0.9rem;
-		text-indent: 1.8rem;
-	}
 	h2 {
 		width: auto;
-	}
-	li a, .dropbtn {
-		padding: 20px;
-		font-size: 0.9rem;
 	}
 	.description {
 		text-indent: 2.5em;
@@ -219,19 +210,28 @@ div.dropdown-content {
 		width: 100%;
 	}
 }
-@media (max-width: 922px) {
+@media (max-width: 972px) {
 	nav {
 		flex-direction: column;
 	}
 	footer .social {
 		display: flex;
 	}
+	h1 {
+		font-size: 3rem;
+		letter-spacing: 0.75rem;
+		text-indent: 1.5rem;
+	}
+	li a, .dropbtn {
+		padding: 20px;
+		font-size: 0.9rem;
+	}
 }
 @media (max-width: 611px) {
 	h1 {
-		font-size: 3.4rem;
-		letter-spacing: 0.85rem;
-		text-indent: 1.7rem;
+		font-size: 2.6rem;
+		letter-spacing: 0.65rem;
+		text-indent: 1.3rem;
 	}
 	li a, .dropbtn {
 		padding: 15.5px;
@@ -240,9 +240,9 @@ div.dropdown-content {
 }
 @media (max-width: 539px) {
 	h1 {
-		font-size: 2.6rem;
-		letter-spacing: 0.65rem;
-		text-indent: 1.3rem;
+		font-size: 2.04rem;
+		letter-spacing: 0.51rem;
+		text-indent: 1.02rem;
 	}
 	li a, .dropbtn {
 		padding: 8.2px;
@@ -251,9 +251,9 @@ div.dropdown-content {
 }
 @media (max-width: 411px) {
 	h1 {
-		font-size: 2.52rem;
-		letter-spacing: 0.63rem;
-		text-indent: 1.26rem;
+		font-size: 1.92rem;
+		letter-spacing: 0.48rem;
+		text-indent: 0.96rem;
 	}
 	li a, .dropbtn {
 		padding: 7.7px;
@@ -262,9 +262,9 @@ div.dropdown-content {
 }
 @media (max-width: 389px) {
 	h1 {
-		font-size: 2.4rem;
-		letter-spacing: 0.6rem;
-		text-indent: 1.2rem;
+		font-size: 1.8rem;
+		letter-spacing: 0.45rem;
+		text-indent: 0.9rem;
 	}
 	li a, .dropbtn {
 		padding: 7px;
@@ -273,9 +273,9 @@ div.dropdown-content {
 }
 @media (max-width: 374px) {
 	h1 {
-		font-size: 2.2rem;
-		letter-spacing: 0.55rem;
-		text-indent: 1.1rem;
+		font-size: 1.7rem;
+		letter-spacing: 0.425rem;
+		text-indent: 0.85rem;
 	}
 	li a, .dropbtn {
 		padding: 6.5px;
@@ -284,9 +284,9 @@ div.dropdown-content {
 }
 @media (max-width: 359px) {
 	h1 {
-		font-size: 1.8rem;
-		letter-spacing: 0.45rem;
-		text-indent: 0.9rem;
+		font-size: 1.35rem;
+		letter-spacing: 0.3375rem;
+		text-indent: 0.675rem;
 	}
 	li a, .dropbtn {
 		padding: 5px;
