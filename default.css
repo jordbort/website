@@ -1,6 +1,6 @@
-/* * {
+* {
 	border: 1px dashed red;
-} */
+}
 body {
 	background-color: #000000;
 	background-attachment: fixed;
@@ -37,7 +37,9 @@ h2 {
 	/* font-weight: normal; */
 	font-weight: 500;
 	/* display: flex; */
-	/* align-items: left; */
+	/* align-self: left; */
+	font-size: x-large;
+	width: 88%;
 	/* text-align: left; */
 	/* text-transform: lowercase; */
 	/* border: 1px dashed blue; */
@@ -122,13 +124,14 @@ nav {
 	border: none;
 	/* scroll-behavior: none; */
 }
-.vimeo-links {
-	/* border: 1px dashed blue; */
+.video-links {
+	/* border: 1px dashed red; */
 	display: flex;
 	flex-direction: column;
 	align-items: left;
 	gap: 32px;
-	width: 100%;
+	/* width: 100%; */
+	width: 88%;
 	/* margin-top: 32px; */
 }
 .video-detail {
@@ -141,6 +144,7 @@ nav {
 }
 .video-detail p {
 	margin: 0 0 8px 0;
+	/* border: 1px dashed blue; */
 }
 main {
 	display: flex;
@@ -152,6 +156,12 @@ footer p {
 	text-transform: lowercase;
 	text-align: center;
 }
+footer .social {
+	/* margin: 0; */
+	/* width: 100%; */
+	display: none;
+	border-top: 1px solid #FFFFFF;
+}
 .buttons {
 	display: flex;
 	justify-content: space-around;
@@ -160,6 +170,7 @@ footer p {
 .social {
 	display: flex;
 	justify-content: space-around;
+	/* margin: 0 20px; */
 	/* border: 1px dashed red; */
 }
 .photo-with-credit {
@@ -215,7 +226,7 @@ div.dropdown-content {
 	line-height: 1.5rem;
 	/* border: 1px dashed blue; */
 }
-@media (orientation: portrait) {
+@media (orientation: portrait) and (max-width: 1270px) {
 	body {
 		margin: 0 5vw;
 		font-size: 0.75em;
@@ -225,6 +236,9 @@ div.dropdown-content {
 		letter-spacing: 0.7rem;
 		text-indent: 0.7rem;
 		/* border: 1px dashed blue; */
+	}
+	h2 {
+		width: auto;
 	}
 	nav {
 		display: flex;
@@ -254,8 +268,22 @@ div.dropdown-content {
 		/* height: auto; */
 		/* height: 166px; */
 	}
+	.video-links{
+		width: auto;
+	}
+	.video-detail p {
+		margin: 0;
+		/* border: 1px dashed red; */
+	}
 	.video-player {
 		width: 100%;
+		/* margin-top: -1.5rem; */
+		/* border: 1px dashed blue; */
+		/* height: 100%; */
 		/* width: auto; */
+	}
+	footer .social {
+		/* border: 1px dashed blue; */
+		display: flex;
 	}
 }
