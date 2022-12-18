@@ -95,6 +95,7 @@ footer p {
 	text-align: center;
 }
 footer .social {
+	display: none;
 	border-top: 1px solid #FFFFFF;
 }
 .buttons {
