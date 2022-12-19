@@ -39,7 +39,7 @@ h2 {
 /* p {
 	margin: 0;
 } */
-.past-clients {
+.text-box {
 	width: 88%;
 	display: flex;
 	flex-direction: column;
@@ -90,7 +90,7 @@ nav {
 	height: 166px;
 	border: none;
 }
-.outside-links-container {
+.media-box {
 	/* border: 1px dashed red; */
 	display: flex;
 	flex-direction: column;
@@ -98,13 +98,13 @@ nav {
 	gap: 56px;
 	width: 88%;
 }
-.outside-link-info {
+.media-item {
 	/* display: flex;
 	flex-direction: column;
 	align-content: left; */
 	margin: 0;
 }
-.outside-link-info p {
+.media-item p {
 	margin: 0 0 8px 0;
 	/* border: 1px dashed blue; */
 }
@@ -214,10 +214,10 @@ div.dropdown-content {
 	.soundcloud-link {
 		width: 100%;
 	}
-	.outside-links-container {
+	.media-box {
 		width: 88%;
 	}
-	/* .outside-link-info p {
+	/* .media-item p {
 		margin: 0;
 	} */
 	.video-player {
