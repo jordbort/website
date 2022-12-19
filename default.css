@@ -154,6 +154,9 @@ footer .social {
 	width: 100%;
 	/* max-width: auto; */
 }
+li {
+	text-align: center;
+}
 li a:hover:not(.current), .dropdown:hover .dropbtn {
 	background-color: #606060;
 }
