@@ -9,7 +9,7 @@ body {
 	padding: 0;
 	color: #FFFFFF;
 	font-family: Verdana, sans-serif;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	text-transform: lowercase;
 	/* border: 1px dashed red; */
 }
@@ -17,7 +17,7 @@ h1 {
 	font-size: 3.6rem;
 	font-weight: normal;
 	text-align: center;
-	text-indent: 0.9em;
+	text-indent: 1rem;
 	letter-spacing: 1.8rem;
 	margin: 24px;
 	width: 100%;
@@ -32,13 +32,19 @@ h2 {
 }
 .description {
 	margin: 2rem 6%;
-	text-indent: 4em;
-	line-height: 1.5rem;
+	text-indent: 4rem;
+	line-height: 2rem;
 	/* border: 1px dashed blue; */
 }
 /* p {
 	margin: 0;
 } */
+.past-clients {
+	width: 88%;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
 a {
 	text-decoration: none;
 	color: #FFFF00;
@@ -93,11 +99,19 @@ nav {
 	width: 88%;
 }
 .outside-link-info {
+	/* display: flex;
+	flex-direction: column;
+	align-content: left; */
 	margin: 0;
 }
 .outside-link-info p {
 	margin: 0 0 8px 0;
 	/* border: 1px dashed blue; */
+}
+.engraving-example {
+	/* transform: scale(0.75); */
+	/* transform-origin: bottom left; */
+	max-width: 100%;
 }
 main {
 	display: flex;
@@ -169,7 +183,6 @@ div.dropdown-content {
 @media (orientation: portrait) or (max-width: 1269px) {
 	body {
 		margin: 0 5vw;
-		font-size: 0.75em;
 	}
 	nav {
 		/* display: flex; */
@@ -183,7 +196,8 @@ div.dropdown-content {
 		width: auto;
 	}
 	.description {
-		text-indent: 2.5em;
+		text-indent: 2.5rem;
+		line-height: 1.75rem;
 	}
 	.photo-with-credit p {
 		font-size: 0.65rem;
@@ -203,9 +217,9 @@ div.dropdown-content {
 	.outside-links-container {
 		width: 88%;
 	}
-	.outside-link-info p {
+	/* .outside-link-info p {
 		margin: 0;
-	}
+	} */
 	.video-player {
 		width: 100%;
 	}
@@ -222,16 +236,22 @@ div.dropdown-content {
 		letter-spacing: 0.75rem;
 		text-indent: 1.5rem;
 	}
+	body {
+		font-size: 1rem;
+	}
 	li a, .dropbtn {
 		padding: 20px;
-		font-size: 0.9rem;
+		font-size: 1rem;
 	}
 }
-@media (max-width: 611px) {
+@media (max-width: 649px) {
 	h1 {
 		font-size: 2.6rem;
 		letter-spacing: 0.65rem;
 		text-indent: 1.3rem;
+	}
+	body {
+		font-size: 0.86rem;
 	}
 	li a, .dropbtn {
 		padding: 15.5px;
@@ -244,6 +264,9 @@ div.dropdown-content {
 		letter-spacing: 0.51rem;
 		text-indent: 1.02rem;
 	}
+	body {
+		font-size: 0.79rem;
+	}
 	li a, .dropbtn {
 		padding: 8.2px;
 		font-size: 0.79rem;
@@ -254,6 +277,9 @@ div.dropdown-content {
 		font-size: 1.92rem;
 		letter-spacing: 0.48rem;
 		text-indent: 0.96rem;
+	}
+	body {
+		font-size: 0.75rem;
 	}
 	li a, .dropbtn {
 		padding: 7.7px;
@@ -266,6 +292,9 @@ div.dropdown-content {
 		letter-spacing: 0.45rem;
 		text-indent: 0.9rem;
 	}
+	body {
+		font-size: 0.73rem;
+	}
 	li a, .dropbtn {
 		padding: 7px;
 		font-size: 0.73rem;
@@ -276,6 +305,9 @@ div.dropdown-content {
 		font-size: 1.7rem;
 		letter-spacing: 0.425rem;
 		text-indent: 0.85rem;
+	}
+	body {
+		font-size: 0.71rem;
 	}
 	li a, .dropbtn {
 		padding: 6.5px;
@@ -288,6 +320,9 @@ div.dropdown-content {
 		letter-spacing: 0.3375rem;
 		text-indent: 0.675rem;
 	}
+	body {
+		font-size: 0.55rem;
+	}
 	li a, .dropbtn {
 		padding: 5px;
 		font-size: 0.55rem;
@@ -298,6 +333,9 @@ div.dropdown-content {
 		font-size: 1.3rem;
 		letter-spacing: 0.325rem;
 		text-indent: 0.65rem;
+	}
+	body {
+		font-size: 0.5rem;
 	}
 	li a, .dropbtn {
 		padding: 5px;
