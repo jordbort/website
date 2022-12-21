@@ -171,6 +171,15 @@ div.dropdown-content {
 	font-size: 0.8rem;
 	/* border: 1px dashed blue; */
 }
+iframe {
+	/* display: block; */
+	border: none;
+	/* float: left; */
+	/* text-align: left; */
+	/* border: 1px dashed blue; */
+	/* width: 100%; */
+	/* height: auto; */
+}
 .glitch-art-box {
 	display: flex;
 	flex-flow: row nowrap;
@@ -238,13 +247,27 @@ div.dropdown-content {
 	/* .media-item p {
 		margin: 0 0 8px 0;
 	} */
-	.video-player {
-		width: 100%;
-		/* vertical-align: top; */
-		/* height: auto; */
-		/* border: 1px dashed green; */
-		/* align-self: left; */
+	/* .media-item { */
+		/* border: 1px dotted red; */
+		/* display: flex; */
+		/* flex-direction: column; */
+		/* justify-content: left; */
+		/* align-content: left; */
+	/* } */
+	iframe {
+		width: auto;
+		max-width: 100%;
+		height: auto;
+		/* max-height: 50%; */
 	}
+	/* .video-player {
+		width: 100%;
+		display: flex;
+		justify-content: left;
+		height: 100%;
+		border: 1px dashed green;
+		align-self: left;
+	} */
 	.glitch-art-box {
 		flex-flow: column nowrap;
 		gap: 5rem;
