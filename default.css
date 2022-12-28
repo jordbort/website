@@ -176,7 +176,7 @@ iframe {
 }
 @media (orientation: portrait) or (max-width: 1269px) {
 	body {
-		margin: 0 5vw;
+		margin: 0 2vw;
 	}
 	nav {
 		flex-direction: row;
