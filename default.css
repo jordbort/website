@@ -48,7 +48,7 @@ a {
 	color: #FFFF00;
 }
 a:hover, .dropdown-content a.current:hover {
-	color: #cccc00;
+	color: #CCCC00;
 }
 ul {
 	list-style-type: none;
