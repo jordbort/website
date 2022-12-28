@@ -4,7 +4,7 @@ This is my personal website's code! I first made and published it in 2008. I've 
 ## December 28, 2022 update
 Deploying online with new improvements:
 * Increased readibility with larger font size and line height
-* Removed depreciated <center> tags and replaced <table> elements with flexbox containers
+* Removed depreciated &lt;center&gt; tags and replaced &lt;table&gt; elements with flexbox containers
 * Updated old/dead links and cleaned up links to outside sources
 * Created media queries for iframes and fitting content to new margins
 * Optimized styling for all possible screens, horizontal or vertical
