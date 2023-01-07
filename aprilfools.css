@@ -5,7 +5,7 @@ body {
 	margin: 0 15vw;
 	padding: 0;
 	color: #FFFFFF;
-	font-family: "Comic Sans MS", "Comic Sans", fantasy, monospace;
+	font-family: "Comic Sans MS", "Comic Sans", monospace;
 	font-size: 1rem;
 	text-transform: lowercase;
 }
@@ -65,6 +65,10 @@ li a, .dropbtn {
 	flex-direction: column;
 	padding: 20px;
 }
+iframe {
+	border: none;
+}
+
 .dropdown:hover .dropdown-content {
 	display: flex;
 	flex-direction: column;
@@ -149,9 +153,6 @@ div.dropdown-content {
 	font-style: italic;
 	font-size: 0.8rem;
 }
-iframe {
-	border: none;
-}
 .glitch-art-box {
 	display: flex;
 	flex-flow: row nowrap;
@@ -174,9 +175,10 @@ iframe {
 	background-color: #404040;
 	color: #FFFF00;
 }
-@media (orientation: portrait) or (max-width: 1269px) {
+
+@media (orientation: portrait), (max-width: 1269px) {
 	body {
-		margin: 0 5vw;
+		margin: 0 2vw;
 	}
 	nav {
 		flex-direction: row;
@@ -186,6 +188,11 @@ iframe {
 	}
 	h2 {
 		width: auto;
+	}
+	iframe {
+		width: auto;
+		max-width: 100%;
+		height: auto;
 	}
 	.description {
 		text-indent: 2.5rem;
@@ -199,7 +206,6 @@ iframe {
 		height: 560px;
 	}
 	.selected-discography {
-		display: flex;
 		flex-flow: column nowrap;
 		gap: 5rem;
 	}
@@ -217,11 +223,6 @@ iframe {
 		display: flex;
 		flex-direction: column;
 	}
-	iframe {
-		width: auto;
-		max-width: 100%;
-		height: auto;
-	}
 	.glitch-art-box {
 		flex-flow: column nowrap;
 		gap: 5rem;
@@ -234,7 +235,7 @@ iframe {
 		height: auto;
 	}
 }
-@media (max-width: 972px) {
+@media (orientation: portrait) and (max-width: 972px) {
 	body {
 		font-size: 1rem;
 	}
@@ -254,7 +255,7 @@ iframe {
 		font-size: 1rem;
 	}
 }
-@media (max-width: 649px) {
+@media (orientation: portrait) and (max-width: 649px) {
 	body {
 		font-size: 0.86rem;
 	}
@@ -268,7 +269,7 @@ iframe {
 		font-size: 0.86rem;
 	}
 }
-@media (max-width: 539px) {
+@media (orientation: portrait) and (max-width: 539px) {
 	body {
 		font-size: 0.79rem;
 	}
@@ -282,7 +283,7 @@ iframe {
 		font-size: 0.79rem;
 	}
 }
-@media (max-width: 411px) {
+@media (orientation: portrait) and (max-width: 411px) {
 	body {
 		font-size: 0.75rem;
 	}
@@ -296,7 +297,7 @@ iframe {
 		font-size: 0.75rem;
 	}
 }
-@media (max-width: 389px) {
+@media (orientation: portrait) and (max-width: 389px) {
 	body {
 		font-size: 0.73rem;
 	}
@@ -310,7 +311,7 @@ iframe {
 		font-size: 0.73rem;
 	}
 }
-@media (max-width: 374px) {
+@media (orientation: portrait) and (max-width: 374px) {
 	body {
 		font-size: 0.71rem;
 	}
@@ -324,7 +325,7 @@ iframe {
 		font-size: 0.71rem;
 	}
 }
-@media (max-width: 359px) {
+@media (orientation: portrait) and (max-width: 359px) {
 	body {
 		font-size: 0.55rem;
 	}
@@ -338,7 +339,7 @@ iframe {
 		font-size: 0.55rem;
 	}
 }
-@media (max-width: 277px) {
+@media (orientation: portrait) and (max-width: 277px) {
 	body {
 		font-size: 0.5rem;
 	}
