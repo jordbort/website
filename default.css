@@ -2,7 +2,7 @@ body {
 	background-color: #000000;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-position-y: bottom 40px;
+	background-position-y: bottom;
 	margin: 0 15vw;
 	padding: 0;
 	color: #FFFFFF;
@@ -10,27 +10,32 @@ body {
 	font-size: 1rem;
 	text-transform: lowercase;
 }
+
 nav {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: 1px solid #FFFFFF;
 	background-color: #000000;
 }
+
 main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
 footer p {
 	margin: 40px 0 80px 0;
 	text-transform: lowercase;
 	text-align: center;
 }
+
 footer .social {
 	display: none;
 	border-top: 1px solid #FFFFFF;
 	background-color: #000000;
 }
+
 h1 {
 	font-size: 3.6rem;
 	font-weight: normal;
@@ -40,34 +45,44 @@ h1 {
 	margin: 24px;
 	width: 100%;
 }
+
 h2 {
 	font-weight: 500;
 	font-size: x-large;
 	width: 88%;
 	margin: 2em 0;
 }
+
 a {
 	text-decoration: none;
 	color: #FFFF00;
 }
-a:hover, .dropdown-content a.current:hover {
+
+a:hover,
+.dropdown-content a.current:hover {
 	color: #CCCC00;
 }
+
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-li a:hover:not(.current), .dropdown:hover .dropbtn:not(.current) {
+
+li a:hover:not(.current),
+.dropdown:hover .dropbtn:not(.current) {
 	background-color: #606060;
 }
-li a, .dropbtn {
+
+li a,
+.dropbtn {
 	text-decoration: none;
 	color: #FFFFFF;
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
 }
+
 iframe {
 	border: none;
 }
@@ -76,9 +91,11 @@ iframe {
 	display: flex;
 	flex-direction: column;
 }
+
 .dropdown:hover .dropbtn {
 	color: #CCCC00;
 }
+
 div.dropdown-content {
 	display: none;
 	position: absolute;
@@ -87,17 +104,20 @@ div.dropdown-content {
 	z-index: 1;
 	text-align: left;
 }
+
 .description {
 	margin: 2rem 6%;
 	text-indent: 4rem;
 	line-height: 2rem;
 }
+
 .text-box {
 	width: 88%;
 	display: flex;
 	flex-direction: column;
 	justify-content: left;
 }
+
 .media-box {
 	display: flex;
 	flex-direction: column;
@@ -105,22 +125,27 @@ div.dropdown-content {
 	gap: 5rem;
 	width: 88%;
 }
+
 .media-item {
 	margin: 0;
 }
+
 .media-item p {
 	margin: 12px 0;
 }
+
 .selected-discography {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	gap: 16px;
 }
+
 .bandcamp-album {
 	width: auto;
 	height: 786px;
 }
+
 .soundcloud-links {
 	display: flex;
 	flex-direction: column;
@@ -129,26 +154,32 @@ div.dropdown-content {
 	width: 88%;
 	margin-top: 32px;
 }
+
 .soundcloud-link {
 	width: 88%;
 	max-width: 1250px;
 	height: 166px;
 }
+
 .engraving-example {
 	max-width: 100%;
 }
+
 .buttons {
 	display: flex;
 	justify-content: space-around;
 }
+
 .social {
 	display: flex;
 	justify-content: space-around;
 }
+
 .photo-with-credit {
 	display: flex;
 	flex-direction: column;
 }
+
 .photo-with-credit p {
 	text-align: right;
 	margin: 4px 0 0 0;
@@ -156,6 +187,7 @@ div.dropdown-content {
 	font-style: italic;
 	font-size: 0.8rem;
 }
+
 .glitch-art-box {
 	display: flex;
 	flex-flow: row nowrap;
@@ -165,82 +197,104 @@ div.dropdown-content {
 	gap: 1rem;
 	margin: 16px 0 64px 0;
 }
+
 .glitch-art {
 	width: 100%;
 }
+
 .press-image {
 	width: 100%;
 }
+
 .buttons li {
 	text-align: center;
 }
+
 .current {
 	background-color: #404040;
 	color: #FFFF00;
 }
 
-@media (orientation: portrait), (max-width: 1269px) {
+@media (orientation: portrait),
+(max-width: 1269px) {
 	body {
 		margin: 0;
 	}
+
 	nav {
 		flex-direction: row;
 	}
+
 	footer .social {
 		display: none;
 	}
+
 	h2 {
 		width: auto;
 	}
+
 	iframe {
 		width: auto;
 		max-width: 100%;
 		height: auto;
 	}
+
 	.description {
 		text-indent: 2.5rem;
 		line-height: 1.75rem;
 	}
+
 	.photo-with-credit p {
 		font-size: 0.65rem;
 	}
+
 	.bandcamp-album {
 		width: 100%;
 		height: 560px;
 	}
+
 	.selected-discography {
 		flex-flow: column nowrap;
 		gap: 5rem;
 	}
+
 	.soundcloud-links {
 		margin-top: 5rem;
 		gap: 5rem;
 	}
+
 	.soundcloud-link {
 		width: 100%;
 	}
+
 	.media-item {
 		display: flex;
 		flex-direction: column;
 	}
+
 	.glitch-art-box {
 		flex-flow: column nowrap;
 		gap: 5rem;
 	}
+
 	.glitch-art {
 		width: auto;
 	}
+
 	.glitch-art-box img {
 		width: 100%;
 		height: auto;
 	}
 }
-@media (orientation: portrait), (max-width: 972px) {
+
+@media (orientation: portrait),
+(max-width: 972px) {
 	body {
 		font-size: 1rem;
 		margin: 40px 0;
-		background-position-y: bottom 40px;
+		/* 40px from bottom */
 	}
+
 	nav {
 		flex-direction: column;
 		position: fixed;
@@ -249,6 +303,7 @@ div.dropdown-content {
 		bottom: auto;
 		left: 0;
 	}
+
 	footer .social {
 		display: flex;
 		position: fixed;
@@ -257,127 +312,159 @@ div.dropdown-content {
 		bottom: 0;
 		left: 0;
 	}
+
 	h1 {
 		font-size: 3rem;
 		letter-spacing: 0.75rem;
 		text-indent: 1.5rem;
 	}
-	li a, .dropbtn {
+
+	li a,
+	.dropbtn {
 		padding: 20px;
 		font-size: 1rem;
 	}
+
 	.social-icons {
 		display: none;
 	}
 }
+
 @media (orientation: portrait) and (max-width: 649px) {
 	body {
 		font-size: 0.86rem;
 		margin: 62px 0;
-		background-position-y: bottom 31px;
+		/* 31px from bottom */
 	}
+
 	h1 {
 		font-size: 2.6rem;
 		letter-spacing: 0.65rem;
 		text-indent: 1.3rem;
 	}
-	li a, .dropbtn {
+
+	li a,
+	.dropbtn {
 		padding: 15.5px;
 		font-size: 0.86rem;
 	}
 }
+
 @media (orientation: portrait) and (max-width: 539px) {
 	body {
 		font-size: 0.79rem;
 		margin: 32.8px 0;
-		background-position-y: bottom 16.4px;
+		/* 16.4px from bottom */
 	}
+
 	h1 {
 		font-size: 2.04rem;
 		letter-spacing: 0.51rem;
 		text-indent: 1.02rem;
 	}
-	li a, .dropbtn {
+
+	li a,
+	.dropbtn {
 		padding: 8.2px;
 		font-size: 0.79rem;
 	}
 }
+
 @media (orientation: portrait) and (max-width: 411px) {
 	body {
 		font-size: 0.75rem;
 		margin: 30.8px 0;
-		background-position-y: bottom 15.4px;
+		/* 15.4px from bottom */
 	}
+
 	h1 {
 		font-size: 1.92rem;
 		letter-spacing: 0.48rem;
 		text-indent: 0.96rem;
 	}
-	li a, .dropbtn {
+
+	li a,
+	.dropbtn {
 		padding: 7.7px;
 		font-size: 0.75rem;
 	}
 }
+
 @media (orientation: portrait) and (max-width: 389px) {
 	body {
 		font-size: 0.73rem;
 		margin: 28px 0;
-		background-position-y: bottom 14px;
+		/* 14px from bottom */
 	}
+
 	h1 {
 		font-size: 1.8rem;
 		letter-spacing: 0.45rem;
 		text-indent: 0.9rem;
 	}
-	li a, .dropbtn {
+
+	li a,
+	.dropbtn {
 		padding: 7px;
 		font-size: 0.73rem;
 	}
 }
+
 @media (orientation: portrait) and (max-width: 374px) {
 	body {
 		font-size: 0.71rem;
 		margin: 26px 0;
-		background-position-y: bottom 13px;
+		/* 13px from bottom */
 	}
+
 	h1 {
 		font-size: 1.7rem;
 		letter-spacing: 0.425rem;
 		text-indent: 0.85rem;
 	}
-	li a, .dropbtn {
+
+	li a,
+	.dropbtn {
 		padding: 6.5px;
 		font-size: 0.71rem;
 	}
 }
+
 @media (orientation: portrait) and (max-width: 359px) {
 	body {
 		font-size: 0.55rem;
 		margin: 20px 0;
-		background-position-y: bottom 10px;
+		/* 10px from bottom */
 	}
+
 	h1 {
 		font-size: 1.35rem;
 		letter-spacing: 0.3375rem;
 		text-indent: 0.675rem;
 	}
-	li a, .dropbtn {
+
+	li a,
+	.dropbtn {
 		padding: 5px;
 		font-size: 0.55rem;
 	}
 }
+
 @media (orientation: portrait) and (max-width: 277px) {
 	body {
 		font-size: 0.5rem;
 		margin: 20px 0;
-		background-position-y: bottom 10px;
+		/* 10px from bottom */
 	}
+
 	h1 {
 		font-size: 1.3rem;
 		letter-spacing: 0.325rem;
 		text-indent: 0.65rem;
 	}
-	li a, .dropbtn {
+
+	li a,
+	.dropbtn {
 		padding: 5px;
 		font-size: 0.5rem;
 	}
