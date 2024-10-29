@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
@@ -6,8 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="SHORTCUT ICON" href="../icon.bmp" />
 		<title>Jordan Bortner - JPEGSTRIPES</title>
-		<link type="text/css" rel="stylesheet" href="../default.css">
-		<style type=text/css>
+		<link type="text/css" rel="stylesheet" href="../aprilfools.css" id="aprilfools" />
+		<link type="text/css" rel="stylesheet" href="../default.css" id="default" />
+		<script>
+			if (new Date().getMonth() === 3 && new Date().getDate() === 1) {document.getElementById("default").setAttribute("disabled", true);}
+		</script>
+		<style type="text/css">
 			body {
 				background-image: url("./zigzag.jpg");
 				background-position: bottom right;
